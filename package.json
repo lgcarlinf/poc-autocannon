@@ -1,0 +1,22 @@
+{
+  "name": "autocannon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --env-file=.env --experimental-strip-types src/index.ts "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "autocannon": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/autocannon": "^7.12.6",
+    "@types/node": "^22.14.1",
+    "typescript": "^5.8.3"
+  }
+}
